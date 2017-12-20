@@ -1,5 +1,5 @@
 function res=DuplicationMatrix(m)
-%%  elimination matrix, Dm=res
+%%  elimination matrix, res=Dm
 % vec(A)=Dm*vec(A)
 if ~isscalar(m)||m<1
     error('m must be an integer!');
